@@ -1,0 +1,74 @@
+{
+    "result": [
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": 60000,
+            "description": "The percent of disk space used.",
+            "displayName": "AWS Redshift - % Disk Space Used",
+            "displayNameShort": "AWS Redshift - %Disk",
+            "isDisabled": 0,
+            "name": "NEM_AWS_REDSHIFT_PERCENTAGE_DISK_SPACE_USED",
+            "unit": "percent"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": 60000,
+            "description": "The percentage of CPU utilization.",
+            "displayName": "AWS Redshift - CPU Utilization",
+            "displayNameShort": "AWS Redshift - CPU%",
+            "isDisabled": 0,
+            "name": "NEM_AWS_REDSHIFT_CPU_UTILIZATION",
+            "unit": "percent"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": 60000,
+            "description": "The number of database connections to a cluster.",
+            "displayName": "AWS Redshift - Database Connections",
+            "displayNameShort": "AWS Redshift - Conns",
+            "isDisabled": 0,
+            "name": "NEM_AWS_REDSHIFT_DATABASE_CONNECTIONS",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": 60000,
+            "description": "Indicates the health of the cluster. Every minute the cluster connects to its database and performs a simple query. If it is able to perform this operation successfully, the cluster is considered healthy. Otherwise, the cluster is unhealthy. An unhealthy status can occur when the cluster database is under extremely heavy load or if there is a configuration problem with a database on the cluster. The exception to this is when the cluster is undergoing maintenance. Even though your cluster might be unavailable due to maintenance tasks, the cluster remains in HEALTHY state.",
+            "displayName": "AWS Redshift - Health Status",
+            "displayNameShort": "AWS Redshift - Hlth",
+            "isDisabled": 0,
+            "name": "NEM_AWS_REDSHIFT_HEALTH_STATUS",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": 60000,
+            "description": "Indicates whether the cluster is in maintenance mode.",
+            "displayName": "AWS Redshift - Maintenance Mode",
+            "displayNameShort": "AWS Redshift - Mtnc",
+            "isDisabled": 0,
+            "name": "NEM_AWS_REDSHIFT_MAINTENANCE_MODE",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": 60000,
+            "description": "The rate at which the node or cluster receives data.",
+            "displayName": "AWS Redshift - Network Rx Throughput",
+            "displayNameShort": "AWS Redshift - NetRx",
+            "isDisabled": 0,
+            "name": "NEM_AWS_REDSHIFT_NETWORK_RECEIVE_THROUGHPUT",
+            "unit": "bytecount"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": 60000,
+            "description": "The rate at which the node or cluster writes data.",
+            "displayName": "AWS Redshift - Network Tx Throughput",
+            "displayNameShort": "AWS Redshift - NetTx",
+            "isDisabled": 0,
+            "name": "NEM_AWS_REDSHIFT_NETWORK_TRANSMIT_THROUGHPUT",
+            "unit": "bytecount"
+        }
+    ]
+}
