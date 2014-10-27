@@ -7,7 +7,7 @@
             "displayName": "AWS Redshift - % Disk Space Used",
             "displayNameShort": "AWS Redshift - %Disk",
             "isDisabled": 0,
-            "name": "NEM_AWS_REDSHIFT_PERCENTAGE_DISK_SPACE_USED",
+            "name": "AWS_REDSHIFT_PERCENTAGE_DISK_SPACE_USED",
             "unit": "percent"
         },
         {
@@ -17,7 +17,7 @@
             "displayName": "AWS Redshift - CPU Utilization",
             "displayNameShort": "AWS Redshift - CPU%",
             "isDisabled": 0,
-            "name": "NEM_AWS_REDSHIFT_CPU_UTILIZATION",
+            "name": "AWS_REDSHIFT_CPU_UTILIZATION",
             "unit": "percent"
         },
         {
@@ -27,7 +27,7 @@
             "displayName": "AWS Redshift - Database Connections",
             "displayNameShort": "AWS Redshift - Conns",
             "isDisabled": 0,
-            "name": "NEM_AWS_REDSHIFT_DATABASE_CONNECTIONS",
+            "name": "AWS_REDSHIFT_DATABASE_CONNECTIONS",
             "unit": "number"
         },
         {
@@ -37,7 +37,7 @@
             "displayName": "AWS Redshift - Health Status",
             "displayNameShort": "AWS Redshift - Hlth",
             "isDisabled": 0,
-            "name": "NEM_AWS_REDSHIFT_HEALTH_STATUS",
+            "name": "AWS_REDSHIFT_HEALTH_STATUS",
             "unit": "number"
         },
         {
@@ -47,7 +47,7 @@
             "displayName": "AWS Redshift - Maintenance Mode",
             "displayNameShort": "AWS Redshift - Mtnc",
             "isDisabled": 0,
-            "name": "NEM_AWS_REDSHIFT_MAINTENANCE_MODE",
+            "name": "AWS_REDSHIFT_MAINTENANCE_MODE",
             "unit": "number"
         },
         {
@@ -57,7 +57,7 @@
             "displayName": "AWS Redshift - Network Rx Throughput",
             "displayNameShort": "AWS Redshift - NetRx",
             "isDisabled": 0,
-            "name": "NEM_AWS_REDSHIFT_NETWORK_RECEIVE_THROUGHPUT",
+            "name": "AWS_REDSHIFT_NETWORK_RECEIVE_THROUGHPUT",
             "unit": "bytecount"
         },
         {
@@ -67,7 +67,7 @@
             "displayName": "AWS Redshift - Network Tx Throughput",
             "displayNameShort": "AWS Redshift - NetTx",
             "isDisabled": 0,
-            "name": "NEM_AWS_REDSHIFT_NETWORK_TRANSMIT_THROUGHPUT",
+            "name": "AWS_REDSHIFT_NETWORK_TRANSMIT_THROUGHPUT",
             "unit": "bytecount"
         }
     ]
