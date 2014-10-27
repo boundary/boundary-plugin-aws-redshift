@@ -1,0 +1,37 @@
+{
+    "description": "Monitors AWS Redshift Clusters",
+    "command": "python -u redshift_plugin.py",
+    "icon" : "icon.png",
+    "metrics" : [
+        "AWS_REDSHIFT_CPU_UTILIZATION",
+        "AWS_REDSHIFT_DATABASE_CONNECTIONS",
+        "AWS_REDSHIFT_HEALTH_STATUS",
+        "AWS_REDSHIFT_MAINTENANCE_MODE",
+        "AWS_REDSHIFT_NETWORK_RECEIVE_THROUGHPUT",
+        "AWS_REDSHIFT_NETWORK_TRANSMIT_THROUGHPUT",
+        "AWS_REDSHIFT_PERCENTAGE_DISK_SPACE_USED"],
+
+    "dashboards" : [{"name" : "AWS Redshift",
+        "layout" : 
+"d-w=2&d-h=2&d-pad=5&d-bg=none&d-g-AWS_REDSHIFT_PERCENTAGE_DISK_SPACE_USED=0-1-1-1&d-g-AWS_REDSHIFT_CPU_UTILIZATION=0-0-1-1&d-g-AWS_REDSHIFT_NETWORK_TRANSMIT_THROUGHPUT=1-0-1-1-t&d-g-AWS_REDSHIFT_NETWORK_RECEIVE_THROUGHPUT=1-0-1-1-b&d-g-AWS_REDSHIFT_HEALTH_STATUS=1-1-1-1-t&d-g-AWS_REDSHIFT_MAINTENANCE_MODE=1-1-1-1-b" }],
+
+    "paramSchema": [
+        {
+            "title": "AWS Access Key Id",
+            "name": "access_key_id",
+            "description": "Access Key for AWS",
+            "type": "string",
+            "default": "",
+            "required": true
+        },
+        {
+            "title": "AWS Secret Key",
+            "name": "secret_key",
+            "description": "Secret Key for AWS",
+            "type": "string",
+            "default": "",
+            "required": true
+        }
+    ]
+}
+
